@@ -4,7 +4,7 @@ $data = array (
     array (
         "title" => "Teachers",
         "excerpt" => "Resources and Workshop",
-        "image" => $theme_uri."/img/section-banner-education-04.jpeg",
+        "image" => $theme_uri."/img/section-banner-education-teachers.jpg",
         "url" => "https://www.nationalarchives.gov.uk/education/teachers/"
     ),
     array (
