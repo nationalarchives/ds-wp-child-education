@@ -4,14 +4,14 @@ $data = array (
     array (
         "title" => "Teachers",
         "excerpt" => "Resources and Workshop",
-        "image" => $theme_uri."/img/section-banner-education-04.jpeg",
-        "url" => ""
+        "image" => $theme_uri."/img/section-banner-education-teachers.jpg",
+        "url" => "https://www.nationalarchives.gov.uk/education/teachers/"
     ),
     array (
         "title" => "Students",
         "excerpt" => "Explore and Learn",
         "image" => $theme_uri."/img/section-banner-education-02.jpeg",
-        "url" => ""
+        "url" => "https://www.nationalarchives.gov.uk/education/students/"
     ),
     array (
         "title" => "Outreach",
@@ -23,7 +23,7 @@ $data = array (
         "title" => "Families",
         "excerpt" => "Events and Activities",
         "image" => $theme_uri."/img/section-banner-education-01.jpeg",
-        "url" => ""
+        "url" => "https://www.nationalarchives.gov.uk/about/visit-us/whats-on/the-time-travel-club-family-activities/"
     )
 )
 ?>
