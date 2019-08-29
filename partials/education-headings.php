@@ -3,7 +3,7 @@ $theme_uri = make_path_relative_no_pre_path(get_stylesheet_directory_uri());
 $data = array (
     array (
         "title" => "Teachers",
-        "excerpt" => "Resources and Workshop",
+        "excerpt" => "Resources and Workshops",
         "image" => $theme_uri."/img/section-banner-education-teachers.jpg",
         "url" => "https://www.nationalarchives.gov.uk/education/teachers/"
     ),
