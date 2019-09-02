@@ -17,7 +17,7 @@ $data = array (
         "title" => "Outreach",
         "excerpt" => "Projects and Exhibitions",
         "image" => $theme_uri."/img/section-banner-education-03.jpeg",
-        "url" => ""
+        "url" => "https://www.nationalarchives.gov.uk/education/outreach/"
     ),
     array (
         "title" => "Families",
