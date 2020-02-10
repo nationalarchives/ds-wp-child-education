@@ -12,3 +12,40 @@ Text Domain:    tna-base
 */
 
 /* Add custom CSS here to overwrite parent theme CSS */
+
+#disc-menu, #numbered-menu {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+#disc-menu li, #numbered-menu li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    width: 18%;
+}
+
+#disc-menu li a, #numbered-menu li a {
+    font-family: "Roboto Mono",monospace;
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: #26262a;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #26262a;
+    text-decoration: none;
+    line-height: 200%;
+    width: 44px;
+    height: 44px;
+}
+
+@media only screen and (min-width: 480px) {
+    #disc-menu li a {
+        font-size: 1.8em;
+        height: 54px;
+        width: 54px;
+    }
+}
