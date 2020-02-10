@@ -16,16 +16,16 @@ Text Domain:    tna-base
 #disc-menu, #numbered-menu {
     width: 100%;
     float: left;
-    margin: 0 0 20px 0;
+    margin: 0 0 2.4em 0;
+    padding-left: 0;
 }
 
 #disc-menu li, #numbered-menu li {
     float: left;
     text-align: center;
     list-style-type: none;
-    margin: 0 5px 5px 0;
+    margin: 0 100px 5px 0;
     display: inline-block;
-    width: 18%;
 }
 
 #disc-menu li a, #numbered-menu li a {
@@ -42,10 +42,33 @@ Text Domain:    tna-base
     height: 44px;
 }
 
+#disc-menu li a:hover {
+    background-color: #fff;
+    color: #26262a;
+}
+
 @media only screen and (min-width: 480px) {
     #disc-menu li a {
         font-size: 1.8em;
         height: 54px;
         width: 54px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #disc-menu li {
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #disc-menu li {
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #disc-menu li {
+        margin-right: 40px;
     }
 }
