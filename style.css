@@ -77,12 +77,12 @@ Text Domain:    tna-base
     }
 }
 
-.outreach-resource.stories-resource-image {
+.outreach-resource .stories-resource-image {
     width: auto;
     height: auto;
 }
 
-.outreach-resource.activity-container {
+.outreach-resource .activity-container {
     background-color: #f3f3f3;
     padding: 20px;
     margin: 0;
@@ -90,14 +90,14 @@ Text Domain:    tna-base
     width: auto;
 }
 
-.outreach-resource.hidden {
+.outreach-resource .hidden {
     display: none;
 }
 
-.outreach-resource.question-list {
+.outreach-resource .question-list {
     margin-bottom: 0;
 }
 
-.outreach-resource#guidance-btn:hover {
+.outreach-resource #guidance-btn:hover {
     cursor: pointer;
 }
