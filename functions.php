@@ -58,5 +58,6 @@ function tna_child_scripts()
 }
 
 add_action( 'wp_enqueue_scripts', 'tna_child_styles' );
+add_action( 'wp_enqueue_scripts', 'tna_child_scripts' );
 add_action( 'init', 'stories_resource_metaboxes' );
 add_action( 'init', 'stories_home_metaboxes' );
