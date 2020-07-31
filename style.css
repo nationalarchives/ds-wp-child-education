@@ -98,6 +98,10 @@ Text Domain:    tna-base
     margin-bottom: 0;
 }
 
+.outreach-resource #guidance-btn {
+    margin-bottom: 10px;
+}
+
 .outreach-resource #guidance-btn:hover {
     cursor: pointer;
 }
