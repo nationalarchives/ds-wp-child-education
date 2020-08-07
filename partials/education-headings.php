@@ -23,7 +23,7 @@ $data = array (
         "title" => "Families",
         "excerpt" => "Events and Activities",
         "image" => $theme_uri."/img/section-banner-education-01.jpeg",
-        "url" => "https://www.nationalarchives.gov.uk/about/visit-us/whats-on/the-time-travel-club-family-activities/"
+        "url" => "https://www.nationalarchives.gov.uk/education/families/"
     )
 )
 ?>
