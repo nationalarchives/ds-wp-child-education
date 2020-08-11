@@ -28,6 +28,20 @@ function stories_resource_metaboxes() {
                     'std'  => ''
                 ),
                 array(
+                    'name' => 'Stories resource image caption',
+                    'desc' => '',
+                    'id'   => 'stories_resource_image_caption',
+                    'type' => 'textarea',
+                    'std'  => ''
+                ),
+                array(
+                    'name' => 'Stories resource H2',
+                    'desc' => '',
+                    'id'   => 'stories_resource_h2_2',
+                    'type' => 'text',
+                    'std'  => ''
+                ),
+                array(
                     'name' => 'Stories resource audio link',
                     'desc' => '',
                     'id'   => 'stories_resource_audio_link',
@@ -37,7 +51,7 @@ function stories_resource_metaboxes() {
                 array(
                     'name' => 'Stories resource H2',
                     'desc' => '',
-                    'id'   => 'stories_resource_h2_2',
+                    'id'   => 'stories_resource_h2_3',
                     'type' => 'text',
                     'std'  => ''
                 ),
@@ -51,7 +65,7 @@ function stories_resource_metaboxes() {
                 array(
                     'name' => 'Stories resource H2',
                     'desc' => '',
-                    'id'   => 'stories_resource_h2_3',
+                    'id'   => 'stories_resource_h2_4',
                     'type' => 'text',
                     'std'  => ''
                 ),
