@@ -109,3 +109,8 @@ Text Domain:    tna-base
 .outreach-resource .did-you-know {
     padding-bottom: 20px;
 }
+
+.outreach-resource #guidance-btn:focus {
+    background-color: #fff;
+    color: #26262a;
+}
