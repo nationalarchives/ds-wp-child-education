@@ -29,13 +29,20 @@ get_header(); ?>
                                     <div class="row entry-content">
                                         <div class="col-md-12">
                                             <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_1', true ) ?></h2>
-                                            <?php echo get_post_meta( get_the_ID(), 'stories_resource_audio_link', true ) ?>
+                                            <?php echo get_post_meta( get_the_ID(), 'stories_resource_image_caption', true ) ?>
                                         </div>
                                     </div>
 
                                     <div class="row entry-content">
                                         <div class="col-md-12">
                                             <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_2', true ) ?></h2>
+                                            <?php echo get_post_meta( get_the_ID(), 'stories_resource_audio_link', true ) ?>
+                                        </div>
+                                    </div>
+
+                                    <div class="row entry-content">
+                                        <div class="col-md-12">
+                                            <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_3', true ) ?></h2>
                                             <div class="activity-container">
                                                 <ul class="question-list">
                                                     <?php echo get_post_meta( get_the_ID(), 'stories_resource_questions', true ) ?>
@@ -46,7 +53,7 @@ get_header(); ?>
 
                                     <div class="row entry-content">
                                         <div class="col-md-12">
-                                            <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_3', true ) ?></h2>
+                                            <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_4', true ) ?></h2>
                                             <p><?php echo get_post_meta( get_the_ID(), 'stories_resource_do_you_know', true ) ?></p>
                                         </div>
                                     </div>
