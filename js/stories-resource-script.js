@@ -1,11 +1,20 @@
-function addButtonListener() {
-	let guidanceBtn = document.getElementById('guidance-btn');
-	let guidance = document.getElementById('guidance');
-	guidanceBtn.addEventListener('click', e => {
-		guidance.classList.toggle("hidden");
-	})
-}
+$(document).ready(function(){
+	if($("#guidance").length){
+		try {
+			var $guidanceText = $("#guidance");
+			var ariaExpanded = $.parseJSON($("#guidance-btn").attr("aria-expanded").toLowerCase());
+			var ariaHidden = $.parseJSON($guidanceText.attr("aria-hidden").toLowerCase());
 
-window.addEventListener('DOMContentLoaded', e => {
-	addButtonListener();
+			$("#guidance-btn").on('click', function(){
+				$guidanceText.toggle();
+				ariaHidden = !ariaHidden;
+				ariaExpanded = !ariaExpanded;
+				$guidanceText.attr('aria-hidden', ariaHidden);
+				$(this).attr('aria-expanded', ariaExpanded);
+			})
+		}
+		catch (e) {
+			return false;
+		}
+	}
 });
