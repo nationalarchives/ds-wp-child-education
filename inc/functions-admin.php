@@ -28,34 +28,6 @@ function stories_resource_metaboxes() {
                     'std'  => ''
                 ),
                 array(
-                    'name' => 'Stories resource image caption',
-                    'desc' => '',
-                    'id'   => 'stories_resource_image_caption',
-                    'type' => 'textarea',
-                    'std'  => ''
-                ),
-                array(
-                    'name' => 'Stories resource H2',
-                    'desc' => '',
-                    'id'   => 'stories_resource_h2_2',
-                    'type' => 'text',
-                    'std'  => ''
-                ),
-                array(
-                    'name' => 'Stories resource audio link',
-                    'desc' => '',
-                    'id'   => 'stories_resource_audio_link',
-                    'type' => 'textarea',
-                    'std'  => ''
-                ),
-                array(
-                    'name' => 'Stories resource H2',
-                    'desc' => '',
-                    'id'   => 'stories_resource_h2_3',
-                    'type' => 'text',
-                    'std'  => ''
-                ),
-                array(
                     'name' => 'Stories resource questions',
                     'desc' => '',
                     'id'   => 'stories_resource_questions',
@@ -65,7 +37,7 @@ function stories_resource_metaboxes() {
                 array(
                     'name' => 'Stories resource H2',
                     'desc' => '',
-                    'id'   => 'stories_resource_h2_4',
+                    'id'   => 'stories_resource_h2_2',
                     'type' => 'text',
                     'std'  => ''
                 ),
