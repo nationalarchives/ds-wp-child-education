@@ -43,7 +43,7 @@ get_header(); ?>
                                     </div>
                                 </div>
 
-                                <div class="row entry-content">
+                                <div class="row entry-content did-you-know">
                                     <div class="col-md-12">
                                         <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_2', true ) ?></h2>
                                         <?php echo get_post_meta( get_the_ID(), 'stories_resource_do_you_know', true ) ?>

@@ -105,3 +105,7 @@ Text Domain:    tna-base
 .outreach-resource #guidance-btn:hover {
     cursor: pointer;
 }
+
+.outreach-resource .did-you-know {
+    padding-bottom: 20px;
+}
