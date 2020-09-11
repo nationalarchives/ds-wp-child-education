@@ -28,7 +28,7 @@ get_header(); ?>
                             <article>
                                 <div class="row entry-content">
                                     <div class="col-md-12">
-                                        <?php echo get_the_content() ?>
+                                        <?php the_content(); ?>
                                     </div>
                                 </div>
 
