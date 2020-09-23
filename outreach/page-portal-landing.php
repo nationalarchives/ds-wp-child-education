@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Stories resource portal landing
+Template Name: Five photos landing page
 */
 get_header(); ?>
 

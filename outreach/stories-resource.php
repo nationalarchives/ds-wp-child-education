@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Stories Resource Page
+ * Template Name: Five Photos Resource Page
  *
  */
 get_header(); ?>
