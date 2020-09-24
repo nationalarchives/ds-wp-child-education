@@ -1,5 +1,9 @@
 <?php
 
+include 'inc/functions-globals.php';
+include 'inc/functions-identify-environment.php';
+include 'inc/functions-admin.php';
+
 // For breadcrumbs and URLs
 // Edit as required
 function tnatheme_globals() {
@@ -44,4 +48,18 @@ function tna_child_styles() {
     wp_enqueue_style( 'tna-parent-styles' );
     wp_enqueue_style( 'tna-child-styles' );
 }
+
+function tna_child_scripts()
+{
+    if (is_page_template('page-portal-landing.php')) {
+        wp_register_script('jquery-3.5.1', get_stylesheet_directory_uri() . '/js/jquery-3.5.1.min.js', array(), '1.0');
+        wp_enqueue_script( 'jquery-3.5.1' );
+        wp_register_script('stories-resource-script', get_stylesheet_directory_uri() . '/js/stories-resource-script.js', array(), '1.0');
+        wp_enqueue_script( 'stories-resource-script' );
+    }
+}
+
 add_action( 'wp_enqueue_scripts', 'tna_child_styles' );
+add_action( 'wp_enqueue_scripts', 'tna_child_scripts' );
+add_action( 'init', 'stories_resource_metaboxes' );
+add_action( 'init', 'stories_home_metaboxes' );

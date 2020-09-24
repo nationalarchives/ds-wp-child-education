@@ -5,7 +5,7 @@ Author:         The National Archives
 Author URI:     http://www.nationalarchives.gov.uk/
 Description:    This should be used when creating new child themes for tna-base
 Template:       tna-base
-Version:        1.1 (2020-03-17)
+Version:        1.0
 License:        GNU General Public License
 License URI:    license.txt
 Text Domain:    tna-base
@@ -75,4 +75,42 @@ Text Domain:    tna-base
     #disc-menu li a {
         line-height: 44px;
     }
+}
+
+.outreach-resource .stories-resource-image {
+    width: auto;
+    height: auto;
+}
+
+.outreach-resource .activity-container {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+    width: auto;
+}
+
+.outreach-resource .hidden {
+    display: none;
+}
+
+.outreach-resource .question-list {
+    margin-bottom: 0;
+}
+
+.outreach-resource #guidance-btn {
+    margin-bottom: 10px;
+}
+
+.outreach-resource #guidance-btn:hover {
+    cursor: pointer;
+}
+
+.outreach-resource .did-you-know {
+    padding-bottom: 20px;
+}
+
+.outreach-resource #guidance-btn:focus {
+    background-color: #fff;
+    color: #26262a;
 }
