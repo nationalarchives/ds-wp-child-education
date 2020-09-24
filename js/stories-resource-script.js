@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var link = $('div#attachment_90 > a');
-	var img = $('div#attachment_90 > a > img.wp-image-90');
+	var link = $('a#five-photos-link');
+	var img = $('a#five-photos-link > img');
 	var href = link.attr('href');
 	var srcset = img.attr('srcset');
 	srcset = srcset.replaceAll('/education', '');
