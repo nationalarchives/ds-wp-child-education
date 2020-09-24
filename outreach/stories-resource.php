@@ -5,7 +5,8 @@
  */
 get_header(); ?>
 
-<?php get_template_part( 'breadcrumb' ); ?>
+<?php while ( have_posts() ) : the_post();
+get_template_part( 'breadcrumb' ); ?>
 
 <div id="primary" class="content-area level-one outreach-resource">
     <div class="container">
@@ -60,5 +61,6 @@ get_header(); ?>
 
     </div>
 </div>
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
