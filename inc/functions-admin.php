@@ -52,7 +52,7 @@ function stories_resource_metaboxes() {
         )
     );
     $template_file      = get_post_meta( $post_id, '_wp_page_template', true );
-    if ( $template_file == 'stories-resource.php' ) {
+    if ( $template_file == 'outreach/stories-resource.php' ) {
         $stories_resource_metabox_array = new CreateMetaBox( $stories_resource_metabox_array[0] );
     }
 }
@@ -91,7 +91,7 @@ function stories_home_metaboxes() {
     );
 
     $template_file      = get_post_meta( $post_id, '_wp_page_template', true );
-    if ( $template_file == 'page-portal-landing.php' ) {
+    if ( $template_file == 'outreach/page-portal-landing.php' ) {
         $stories_home_metabox_array = new CreateMetaBox( $stories_home_metabox_array[0] );
     }
 }
