@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var src = img.attr('src');
 	var srcset = img.attr('srcset');
 
-	src = src.replaceAll('/education', '');
+	src = src.replace('/education', '');
 	href = href.replace('/education', '');
 
 	if(srcset){
