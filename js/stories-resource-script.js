@@ -8,9 +8,11 @@ $(document).ready(function(){
 	src = src.replace('/education', '');
 	href = href.replace('/education', '');
 
-	if(typeof srcset.replaceAll !== "undefined"){
-		srcset.replaceAll('/education', '');
-		img.attr('srcset', srcset);
+	if(srcset) {
+		if (typeof srcset.replaceAll !== "undefined") {
+			srcset = srcset.replaceAll('/education', '');
+			img.attr('srcset', srcset);
+		}
 	}
 
 	img.attr('src', src);
