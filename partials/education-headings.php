@@ -27,6 +27,7 @@ $data = array (
     )
 )
 ?>
+<h2 class="sr-only">Audience group</h2>
 <div class="cards">
     <div class="container">
         <div class="row">
