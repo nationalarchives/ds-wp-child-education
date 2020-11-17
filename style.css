@@ -45,6 +45,7 @@ Text Domain:    tna-base
 #disc-menu li a:hover {
     background-color: #fff;
     color: #26262a;
+    outline: none;
 }
 
 @media only screen and (min-width: 480px) {
