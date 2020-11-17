@@ -125,6 +125,7 @@ Text Domain:    tna-base
 
 .pictorial-list .resource-block a:hover {
     outline: none;
+    color: #ffffff;
 }
 
 .pictorial-list .resource-block a:hover h3 {
