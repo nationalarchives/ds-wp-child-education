@@ -154,3 +154,14 @@ Text Domain:    tna-base
     outline: 1px solid #134571;
     color: #ffffff;
 }
+
+.education-lessons .feature-box .subtext-image-inline-block a:hover{
+    background: none;
+    outline: none;
+    color: #134571;
+}
+
+.education-lessons .feature-box .subtext-image-inline-block a:hover .thumbnail-container{
+    border: 2px solid #134571;
+    outline: 5px solid #134571;
+}
