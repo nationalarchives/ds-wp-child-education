@@ -145,3 +145,12 @@ Text Domain:    tna-base
     color: #fff;
     text-decoration: underline;
 }
+
+.image-description a:link, .image-description a:visited {
+    padding-left: .5em;
+    color: #134571;
+}
+.image-description a:hover {
+    outline: 1px solid #134571;
+    color: #ffffff;
+}
