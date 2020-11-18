@@ -178,3 +178,11 @@ Text Domain:    tna-base
 button.icon-img-desc:focus {
     outline: #1d70b8 solid 5px;
 }
+
+.education-lessons .feature-box p a img {
+    margin: 0;
+}
+
+.education-lessons .feature-box p a:hover {
+    outline: 5px solid #134571;
+}
