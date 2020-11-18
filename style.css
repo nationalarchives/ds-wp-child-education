@@ -116,6 +116,10 @@ Text Domain:    tna-base
     color: #26262a;
 }
 
+.mimic-link:hover, a:hover {
+    color: #ffffff;
+}
+
 .pictorial-list .resource-block h3 {
     font-family: "Roboto Mono", monospace !important;
     margin: 0;
