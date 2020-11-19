@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Five photos landing page
+Template Name: Five Photos landing page
 */
 get_header(); ?>
 
