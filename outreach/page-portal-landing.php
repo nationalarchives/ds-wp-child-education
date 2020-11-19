@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Portal landing
+Template Name: Five Photos landing page
 */
 get_header(); ?>
 
@@ -16,7 +16,7 @@ get_header(); ?>
     $intro_img    = make_path_relative_no_pre_path( get_post_meta( $post->ID, 'intro_img', true ) );
     $class        = $logo ? 'portal-branding' : 'portal-title';
     ?>
-    <div class="portal-landing">
+    <div class="portal-landing outreach-resource">
         <div class="banner feature-img" role="banner" <?php echo $banner_img ?>>
             <?php get_template_part( 'breadcrumb' ); ?>
             <div class="heading-banner">
