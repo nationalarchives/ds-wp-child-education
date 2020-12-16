@@ -45,6 +45,7 @@ Text Domain:    tna-base
 #disc-menu li a:hover {
     background-color: #fff;
     color: #26262a;
+    outline: none;
 }
 
 @media only screen and (min-width: 480px) {
@@ -113,4 +114,75 @@ Text Domain:    tna-base
 .outreach-resource #guidance-btn:focus {
     background-color: #fff;
     color: #26262a;
+}
+
+.mimic-link:hover, a:hover {
+    color: #ffffff;
+}
+
+.pictorial-list .resource-block h3 {
+    font-family: "Roboto Mono", monospace !important;
+    margin: 0;
+    padding-top: 10px !important;
+    width: 100%;
+}
+
+.pictorial-list .resource-block a:hover {
+    outline: none;
+    color: #ffffff;
+}
+
+.pictorial-list .resource-block a:hover h3 {
+    background-color: #134571;
+}
+
+.pictorial-list .resource-block .tag:hover {
+    background-color: #134571;
+    cursor: pointer;
+}
+
+.pictorial-list .resource-block .tag a {
+    text-decoration: underline;
+}
+
+.pictorial-list .resource-block .tag:hover a {
+    background: none;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.image-description a:link, .image-description a:visited {
+    padding-left: .5em;
+    color: #134571;
+}
+.image-description a:hover {
+    outline: 1px solid #134571;
+    color: #ffffff;
+}
+
+.education-lessons .feature-box .subtext-image-inline-block a:hover{
+    background: none;
+    outline: none;
+    color: #134571;
+}
+
+.education-lessons .feature-box .subtext-image-inline-block a:hover .thumbnail-container{
+    border: 2px solid #134571;
+    outline: 5px solid #134571;
+}
+
+.education-lessons .education-image-cta a:focus {
+    outline: none !important;
+}
+
+button.icon-img-desc:focus {
+    outline: #1d70b8 solid 5px;
+}
+
+.education-lessons .feature-box p a img {
+    margin: 0;
+}
+
+.education-lessons .feature-box p a:hover {
+    outline: 5px solid #134571;
 }
