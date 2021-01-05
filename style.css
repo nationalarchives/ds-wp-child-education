@@ -190,3 +190,8 @@ button.icon-img-desc:focus {
 #index .starts-at-full .breather > a {
     display: block;
 }
+
+.wp-caption > a {
+    background-color: #ffffff;
+    outline: none;
+}
