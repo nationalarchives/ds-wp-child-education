@@ -10,19 +10,19 @@ $data = array (
     array (
         "title" => "Students",
         "excerpt" => "Explore and Learn",
-        "image" => $theme_uri."/img/section-banner-education-02.jpeg",
+        "image" => $theme_uri."/img/section-banner-education-students.jpg",
         "url" => "https://www.nationalarchives.gov.uk/education/students/"
     ),
     array (
         "title" => "Outreach",
         "excerpt" => "Projects and Exhibitions",
-        "image" => $theme_uri."/img/section-banner-education-03.jpeg",
+        "image" => $theme_uri."/img/section-banner-education-outreach.jpg",
         "url" => "https://www.nationalarchives.gov.uk/education/outreach/"
     ),
     array (
         "title" => "Families",
         "excerpt" => "Events and Activities",
-        "image" => $theme_uri."/img/section-banner-education-01.jpeg",
+        "image" => $theme_uri."/img/section-banner-education-families.jpg",
         "url" => "https://www.nationalarchives.gov.uk/education/families/"
     )
 )
